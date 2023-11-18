@@ -3,21 +3,29 @@ section {
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
+  margin-top: 80px;
 
-  span {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 16;
-    color: #151717;
-  };
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 
-  h1 {
-    background: rgb(82,34,208);
-    background: linear-gradient(90deg, rgba(82,34,208,1) 35%, rgba(255,97,150,1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    span {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 16;
+      color: #151717;
+    };
 
+    h1 {
+      background: linear-gradient(90deg, rgba(82,34,208,1) 35%, rgba(255,97,150,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+      margin: 0;
+    }
   }
 }
 
@@ -25,5 +33,14 @@ section {
   section {
     flex-direction: row;
     justify-content: space-between;
+
+    .main-content {
+      align-items: flex-start;
+      max-width: 50%;
+
+      h1 {
+        font-size: 56px;
+      }
+    }
   }
 }
