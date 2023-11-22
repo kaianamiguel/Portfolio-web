@@ -1,11 +1,13 @@
 .wrapper {
-  padding: 0 42 px;
+  padding: 0 42px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 @media (min-width: 1080px) {
   .wrapper {
-    padding: 0 62px
+    padding: 0 62px;
+    gap: 50px;
   }
 }
