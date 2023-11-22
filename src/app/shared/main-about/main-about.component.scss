@@ -1,0 +1,30 @@
+.about {
+  h2 {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .text-about {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    position: relative;
+
+    .line {
+      width: 5px;
+      height: 100%;
+      border-radius: 5px;
+      background-color: #5222D0;
+      position: absolute;
+      left: -24px
+    }
+
+    p {
+      margin: 0;
+      line-height: 26px;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+
+}
