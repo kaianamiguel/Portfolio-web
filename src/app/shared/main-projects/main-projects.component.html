@@ -1,9 +1,9 @@
-<section class="projects">
+<section class="list-projects">
   <h2>Projects</h2>
   <div class="projects">
-    <project></project>
-    <project></project>
-    <project></project>
+    <ng-container *ngFor="let project of repositories">
+        <project title= {{project.name}} tag="tags" summary={{project.description}}></project>
+    </ng-container>
   </div>
 </section>
 

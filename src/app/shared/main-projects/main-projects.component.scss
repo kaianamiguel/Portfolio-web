@@ -1,12 +1,12 @@
-.projects {
-  h2 {
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-  }
 
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
- }
+h2 {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
